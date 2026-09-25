@@ -75,6 +75,7 @@ section{padding:82px 0}
 .timeline-item strong{display:block}
 .contact{background:var(--ink);color:#edf7f6}.contact .muted{color:#bad1cf}
 footer{background:#062630;color:#a8c2c0;padding:25px 0;font-size:.85rem}
+.whatsapp-float{position:fixed;right:22px;bottom:22px;z-index:30;display:flex;align-items:center;gap:10px;background:#25D366;color:#063d22;text-decoration:none;padding:13px 17px;border-radius:999px;font-weight:800;box-shadow:0 14px 35px rgba(0,0,0,.22);transition:.2s}.whatsapp-float:hover{transform:translateY(-3px);background:#2ee071}.whatsapp-icon{width:25px;height:25px;display:grid;place-items:center;border:2px solid currentColor;border-radius:50%;font-size:.85rem}.footer-row{display:flex;align-items:center;justify-content:space-between;gap:18px}.visitor-count{display:flex;align-items:center;gap:8px;color:#d4e6e4}.visitor-count:before{content:"";width:8px;height:8px;border-radius:50%;background:var(--accent)}.counterapi{display:inline-flex!important;min-height:0!important;padding:0!important;background:transparent!important;color:inherit!important;border:0!important;font:inherit!important}@media(max-width:600px){.whatsapp-float{right:14px;bottom:14px;padding:12px}.whatsapp-label{display:none}.footer-row{align-items:flex-start;flex-direction:column}}
 @media(max-width:850px){
  .hero-grid,.about{grid-template-columns:1fr}
  .hero-grid{padding:65px 0}.portrait{max-width:300px}
@@ -247,10 +248,13 @@ footer{background:#062630;color:#a8c2c0;padding:25px 0;font-size:.85rem}
    <a class="btn primary" href="mailto:oadeyemo@fpno.edu.ng">Email oadeyemo@fpno.edu.ng</a>
    <a class="btn light" target="_blank" rel="noopener" href="https://www.researchgate.net/profile/Samuel-Adeyemo-6?ev=hdr_xprf">ResearchGate ↗</a>
    <a class="btn light" href="samuel-adeyemo-profile.pdf">Academic profile PDF</a>
+   <a class="btn light" target="_blank" rel="noopener" href="https://wa.me/2348164583244?text=Hello%20Dr%20Adeyemo%2C%20I%20visited%20your%20academic%20website%20and%20would%20like%20to%20discuss%20research%20or%20collaboration.">WhatsApp ↗</a>
   </div>
  </div>
 </section>
 </main>
-<footer><div class="container">© 2026 Samuel Oluwaseun Adeyemo · Mathematical Demography · Population Health · Applied Statistics · Nigeria</div></footer>
+<footer><div class="container footer-row"><span>© 2026 Samuel Oluwaseun Adeyemo · Mathematical Demography · Population Health · Applied Statistics · Nigeria</span><span class="visitor-count" title="Anonymised page-view count"><span class="counterapi" ns="samuel-adeyemo.netlify.app" action="view" key="homepage" unique="true" noIcon="true" noLink="true" noCss="true">—</span> visits</span></div></footer>
+<a class="whatsapp-float" target="_blank" rel="noopener" aria-label="Contact Samuel Adeyemo on WhatsApp" href="https://wa.me/2348164583244?text=Hello%20Dr%20Adeyemo%2C%20I%20visited%20your%20academic%20website%20and%20would%20like%20to%20discuss%20research%20or%20collaboration."><span class="whatsapp-icon">☎</span><span class="whatsapp-label">WhatsApp</span></a>
+<script src="https://counterapi.com/c.js?ns=samuel-adeyemo.netlify.app" async></script>
 </body>
 </html>
